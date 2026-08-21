@@ -3,36 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coined – Privacy Policy</title>
+  <title>Coined — Privacy Policy</title>
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-         max-width:680px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1c1c1e}
-    h1{font-size:1.6rem} h2{font-size:1.15rem;margin-top:1.8em}
-    a{color:#0a63c9} .muted{color:#6b6b70;font-size:.9rem}
+    :root{
+      --paper:#FAF5EB; --paper-deep:#F0E8D6; --ink:#1A1C26; --muted:#6E6A5E;
+      --gold:#DBA838; --gold-deep:#B3801F; --teal:#0F8078; --card:#FFFFFF;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Iowan Old Style,Palatino,Georgia,'Times New Roman',serif;
+      background:var(--paper); color:var(--ink); line-height:1.65;
+      background-image:radial-gradient(circle at 85% -10%, rgba(219,168,56,.14), transparent 45%);
+    }
+    .wrap{max-width:720px;margin:0 auto;padding:0 22px 70px}
+    header{display:flex;align-items:center;gap:14px;padding:34px 0 8px}
+    .coin{width:46px;height:46px;flex:none}
+    .brand{font-size:1.5rem;font-weight:700;letter-spacing:.02em}
+    .brand a{color:var(--ink);text-decoration:none}
+    nav{margin-left:auto;font-size:.95rem}
+    nav a{color:var(--teal);text-decoration:none;margin-left:18px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    nav a:hover{text-decoration:underline}
+    .rule{height:3px;background:linear-gradient(90deg,var(--gold),var(--teal));border-radius:2px;margin:10px 0 34px;opacity:.65}
+    h1{font-size:2.1rem;margin-bottom:6px}
+    .updated{color:var(--muted);font-size:.9rem;margin-bottom:28px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    .pledge{background:var(--card);border-left:4px solid var(--teal);border-radius:14px;
+      padding:22px 24px;margin-bottom:26px;box-shadow:0 6px 18px rgba(26,28,38,.07);font-size:1.05rem}
+    section{margin-bottom:26px}
+    h2{font-size:1.15rem;margin-bottom:8px}
+    h2::before{content:"◆ ";color:var(--gold-deep);font-size:.8em;vertical-align:1px}
+    p{color:#3A3C46;font-size:.99rem}
+    a{color:var(--teal)}
+    footer{margin-top:44px;color:var(--muted);font-size:.85rem;text-align:center;
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    footer a{color:var(--teal)}
   </style>
 </head>
 <body>
-  <h1>Coined – Privacy Policy</h1>
-  <p class="muted">Last updated: August 2026</p>
+<div class="wrap">
+  <header>
+    <svg class="coin" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="22" fill="#DBA838"/>
+      <circle cx="24" cy="24" r="22" fill="none" stroke="#B3801F" stroke-width="2.5"/>
+      <circle cx="24" cy="24" r="16.5" fill="none" stroke="#F6E3B4" stroke-width="1.6" opacity=".8"/>
+      <text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="21" fill="#1A1C26">C</text>
+    </svg>
+    <div class="brand"><a href="index.html">Coined</a></div>
+    <nav><a href="index.html">Home</a><a href="support.html">Support</a></nav>
+  </header>
+  <div class="rule"></div>
 
-  <p>Coined is designed to work entirely on your device. We do not collect, transmit,
-  or sell any personal information.</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: August 2026</p>
 
-  <h2>Data we collect</h2>
-  <p>None. Coined makes no network requests, includes no analytics, and contains no
-  third-party advertising or tracking SDKs. Your saved words, streaks, preferences, and
-  Curator selections are stored only on your device (and in your own iCloud backup, if you
-  have one enabled).</p>
+  <p class="pledge">Coined is designed to work entirely on your device. We do not collect, transmit, or sell any personal information — and there is nothing to opt out of, because nothing leaves your phone.</p>
 
-  <h2>Purchases</h2>
-  <p>The optional one-time "Curator Unlock" purchase is processed entirely by Apple
-  through the App Store. Coined never sees your payment details. Apple's handling of your
-  purchase is governed by Apple's Privacy Policy.</p>
+  <section>
+    <h2>Data we collect</h2>
+    <p>None. Coined makes no network requests, includes no analytics, and contains no third-party advertising or tracking SDKs. Your saved words, streaks, preferences, and Curator selections are stored only on your device (and in your own iCloud backup, if you have one enabled).</p>
+  </section>
 
-  <h2>Children</h2>
-  <p>Coined does not collect data from anyone, including children.</p>
+  <section>
+    <h2>Purchases</h2>
+    <p>The optional one-time "Curator Unlock" purchase is processed entirely by Apple through the App&nbsp;Store. Coined never sees your payment details. Apple's handling of your purchase is governed by Apple's Privacy Policy.</p>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Questions? Email <a href="mailto:naqzar@gmail.com">naqzar@gmail.com</a>.</p>
+  <section>
+    <h2>Children</h2>
+    <p>Coined does not collect data from anyone, including children.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions? Email <a href="mailto:justinkoch@gmail.com">justinkoch@gmail.com</a>.</p>
+  </section>
+
+  <footer>Coined — Word Origins Daily · <a href="support.html">Support</a></footer>
+</div>
 </body>
 </html>
